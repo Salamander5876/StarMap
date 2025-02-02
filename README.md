@@ -46,7 +46,7 @@
 ## ⭐ Поддержка проекта
 Если вам нравится этот проект и вы хотите помочь, **пожалуйста, внесите свой вклад** или **оставьте звезду** ⭐ на нашем GitHub!
 
-[![GitHub Stars](https://img.shields.io/github/stars/your-repo/starry-sky?style=social)](https://github.com/your-repo/starry-sky)
+[![GitHub Stars](https://img.shields.io/github/stars/your-repo/starry-sky?style=social)](https://github.com/Salamander5876/StarMap)
 
 ---
 
@@ -98,5 +98,5 @@ Then open **`index.html`** in any modern browser and enjoy! 🚀
 ## ⭐ Support the Project
 If you like this project and want to help, **please contribute** or **give a star** ⭐ on our GitHub!
 
-[![GitHub Stars](https://img.shields.io/github/stars/your-repo/starry-sky?style=social)](https://github.com/your-repo/starry-sky)
+[![GitHub Stars](https://img.shields.io/github/stars/your-repo/starry-sky?style=social)](https://github.com/Salamander5876/StarMap)
 
