@@ -1,7 +1,5 @@
 # 🌌 Звёздное небо с созвездиями
 
-![Starry Sky](https://your-image-link.com/banner.png)
-
 ## ✨ О проекте
 Этот проект представляет собой **интерактивное звёздное небо** с перспективой, живым фоном и отображением созвездий. Он позволяет **визуализировать ночное небо** с возможностью **добавления новых созвездий**.
 
@@ -53,8 +51,6 @@
 ---
 
 # 🌠 Starry Sky with Constellations
-
-![Starry Sky](https://your-image-link.com/banner.png)
 
 ## ✨ About the Project
 This project is an **interactive starry sky** with perspective, a live background, and constellation rendering. It allows you to **visualize the night sky** and **dynamically add new constellations**.
