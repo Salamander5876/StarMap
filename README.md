@@ -1,140 +1,106 @@
-Звёздное небо с созвездиями
+# 🌌 Звёздное небо с созвездиями
 
-О проекте
+![Starry Sky](https://your-image-link.com/banner.png)
 
-Этот проект представляет собой интерактивное звёздное небо с перспективой, живым фоном и отображением созвездий. Он позволяет визуализировать ночное небо с возможностью добавления новых созвездий.
+## ✨ О проекте
+Этот проект представляет собой **интерактивное звёздное небо** с перспективой, живым фоном и отображением созвездий. Он позволяет **визуализировать ночное небо** с возможностью **добавления новых созвездий**.
 
-Возможности
+## 🌟 Возможности
+✅ Реалистичное звёздное небо с перспективой  
+✅ Анимированные **звёзды и кометы**  
+✅ Визуализация **известных созвездий**  
+✅ Динамическое добавление **новых созвездий**  
+✅ Живой фон, имитирующий **изменение цвета ночного неба**  
 
-Отображение звёздного неба с реалистичной перспективой
-
-Анимированные звёзды и кометы
-
-Визуализация известных созвездий
-
-Динамическое добавление новых созвездий
-
-Живой фон, имитирующий изменение цвета ночного неба
-
-Как помочь проекту
-
+## 🤝 Как помочь проекту
 Мы ищем энтузиастов, которые могут помочь с:
+- 📝 **Добавлением новых созвездий** в `constellations.json`
+- 🎨 **Улучшением визуального отображения**
+- 🚀 **Оптимизацией рендеринга звёзд**
+- 🔍 **Добавлением новых функций**, например, **выделение созвездий** или **их поиск**
 
-Добавлением новых созвездий в constellations.json
+### 📌 Как добавить новые созвездия
+1. Откройте файл `constellations.json`
+2. Добавьте новый объект в массив:
+   ```json
+   {
+      "name": "Название созвездия",
+      "points": [
+        { "x": -30, "y": 15 },
+        { "x": -10, "y": 10 },
+        { "x": 10, "y": 10 },
+        { "x": 30, "y": 15 },
+        { "x": 10, "y": 5 }
+      ],
+      "connections": [
+        [0, 1],
+        [1, 2],
+        [2, 3],
+        [1, 4],
+        [2, 4]
+      ]
+   }
+   ```
+3. Сохраните изменения и **протестируйте в браузере**.
 
-Улучшением визуального отображения
+Затем откройте **`index.html`** в любом современном браузере и наслаждайтесь! 🚀
 
-Оптимизацией рендеринга звёзд
+## ⭐ Поддержка проекта
+Если вам нравится этот проект и вы хотите помочь, **пожалуйста, внесите свой вклад** или **оставьте звезду** ⭐ на нашем GitHub!
 
-Добавлением новых функций, например, выделение созвездий или их поиск
+[![GitHub Stars](https://img.shields.io/github/stars/your-repo/starry-sky?style=social)](https://github.com/your-repo/starry-sky)
 
-Как добавить новые созвездия
+---
 
-Откройте файл constellations.json
+# 🌠 Starry Sky with Constellations
 
-Добавьте новый объект в массив с таким форматом:
+![Starry Sky](https://your-image-link.com/banner.png)
 
-{
-   "name": "Название созвездия",
-   "points": [
-     { "x": -30, "y": 15 },
-     { "x": -10, "y": 10 },
-     { "x": 10, "y": 10 },
-     { "x": 30, "y": 15 },
-     { "x": 10, "y": 5 }
-   ],
-   "connections": [
-     [0, 1],
-     [1, 2],
-     [2, 3],
-     [1, 4],
-     [2, 4]
-   ]
-}
+## ✨ About the Project
+This project is an **interactive starry sky** with perspective, a live background, and constellation rendering. It allows you to **visualize the night sky** and **dynamically add new constellations**.
 
-Сохраните изменения и протестируйте в браузере.
+## 🌟 Features
+✅ **Realistic starry sky with perspective**  
+✅ **Animated stars and comets**  
+✅ **Visualization of known constellations**  
+✅ **Dynamic addition of new constellations**  
+✅ **Live background simulating night sky color changes**  
 
-Как запустить проект
-
-Откройте index.html в любом современном браузере
-
-Убедитесь, что файл constellations.json загружен корректно
-
-Наслаждайтесь звёздным небом!
-
-Поддержка проекта
-
-Если вам нравится этот проект и вы хотите помочь, пожалуйста, внесите свой вклад или оставьте звезду ⭐ на нашем GitHub!
-
-_______________________________________________________________________________________________________________________________________
-
-Starry Sky with Constellations
-
-About the Project
-
-This project is an interactive starry sky with perspective, a live background, and constellation rendering. It allows you to visualize the night sky and add new constellations dynamically.
-
-Features
-
-Realistic starry sky with perspective
-
-Animated stars and comets
-
-Visualization of known constellations
-
-Dynamic addition of new constellations
-
-Live background simulating night sky color changes
-
-How to Contribute
-
+## 🤝 How to Contribute
 We are looking for contributors to help with:
+- 📝 **Adding new constellations** to `constellations.json`
+- 🎨 **Improving visual representation**
+- 🚀 **Optimizing star rendering**
+- 🔍 **Adding new features** such as **constellation highlighting** or **search**
 
-Adding new constellations to constellations.json
+### 📌 How to Add New Constellations
+1. Open `constellations.json`
+2. Add a new object to the array:
+   ```json
+   {
+      "name": "Constellation Name",
+      "points": [
+        { "x": -30, "y": 15 },
+        { "x": -10, "y": 10 },
+        { "x": 10, "y": 10 },
+        { "x": 30, "y": 15 },
+        { "x": 10, "y": 5 }
+      ],
+      "connections": [
+        [0, 1],
+        [1, 2],
+        [2, 3],
+        [1, 4],
+        [2, 4]
+      ]
+   }
+   ```
+3. Save the changes and **test in the browser**.
 
-Improving visual representation
+Then open **`index.html`** in any modern browser and enjoy! 🚀
 
-Optimizing star rendering
+## ⭐ Support the Project
+If you like this project and want to help, **please contribute** or **give a star** ⭐ on our GitHub!
 
-Adding new features such as constellation highlighting or search
-
-How to Add New Constellations
-
-Open constellations.json
-
-Add a new object to the array using this format:
-
-{
-   "name": "Constellation Name",
-   "points": [
-     { "x": -30, "y": 15 },
-     { "x": -10, "y": 10 },
-     { "x": 10, "y": 10 },
-     { "x": 30, "y": 15 },
-     { "x": 10, "y": 5 }
-   ],
-   "connections": [
-     [0, 1],
-     [1, 2],
-     [2, 3],
-     [1, 4],
-     [2, 4]
-   ]
-}
-
-Save the changes and test in the browser.
-
-How to Run the Project
-
-Open index.html in any modern browser
-
-Ensure that constellations.json loads correctly
-
-Enjoy the starry sky!
-
-Support the Project
-
-If you like this project and want to help, please contribute or give a ⭐ on our GitHub!
-
-
+[![GitHub Stars](https://img.shields.io/github/stars/your-repo/starry-sky?style=social)](https://github.com/your-repo/starry-sky)
 
